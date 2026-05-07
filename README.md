@@ -22,9 +22,20 @@
 ### Frontend
 
 1. Клонируйте репозиторий:
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/linguistic-graph.git
 cd linguistic-graph/frontend
+```
 
 2. Откройте index.html в браузере или используйте live-server:
+```bash
+npx live-server
+```
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+python manage.py runserver
+```
