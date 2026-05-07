@@ -19,15 +19,15 @@
 
 ## Установка и запуск
 
-### Frontend
-
-1. Клонируйте репозиторий:
+Клонируйте репозиторий:
 ```bash
 git clone https://github.com/YOUR_USERNAME/linguistic-graph.git
 cd linguistic-graph/frontend
 ```
 
-2. Откройте index.html в браузере или используйте live-server:
+### Frontend
+
+Откройте index.html в браузере или используйте live-server:
 ```bash
 npx live-server
 ```
