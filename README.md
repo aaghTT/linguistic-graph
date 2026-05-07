@@ -21,7 +21,7 @@
 
 Клонируйте репозиторий:
 ```bash
-git clone https://github.com/YOUR_USERNAME/linguistic-graph.git
+git clone https://github.com/aaghTT/linguistic-graph.git
 cd linguistic-graph/frontend
 ```
 
