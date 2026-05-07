@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лингвистический граф</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <h3>Лингвистический граф</h3>
+        <div class="search-group">
+            <input type="text" id="nodeId" placeholder="id узла (k1, k2…)" value="k1">
+            <button id="searchBtn">Загрузить узел</button>
+            <button id="resetBtn">Сброс</button>
+        </div>
+
+        <div class="action-group">
+            <button id="exportBtn">Экспорт JSON</button>
+            <button id="themeBtn">Тёмная тема</button>
+            <button id="clearHiddenBtn">Очистить лог</button>
+        </div>
+        
+        <div class="info">
+            <span>клик по узлу раскрывает связи</span>
+            <span>перетаскивание узлов</span>
+            <span>зум производится колёсиком мыши</span>
+            <span>красный - текущий узел</span>
+            <span>синий - соседи</span>
+            <span>авто-скрытие при &gt;20 узлах</span>
+        </div>
+    </div>
+    <div id="graph-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
